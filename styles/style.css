@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 0 0 20px;
 }
 
 .header-nav {
@@ -41,9 +42,12 @@
 
 .cover-text {
   flex: 1;
-  padding: 20px 20px 0 50px;
+  padding: 10px 20px 0 50px;
   font-size: 100px;
   letter-spacing: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 
 .cover-top {
@@ -149,8 +153,8 @@
 
 .about {
   display: grid;
-  grid-template-columns: 4fr 6fr;
-  grid-template-rows: 9fr 13fr;
+  grid-template-columns: 3fr 7fr;
+  grid-template-rows: 4fr 7fr;
   padding: 150px 24px 0 24px;
   height: 600px;
 }
@@ -172,15 +176,20 @@
 }
 
 .about-round-logo {
+
+  align-self: center;
+  width: 240px;
+  height: 240px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  background-color: #000;
+  border-radius: 50%;
+
 }
 
 .about-logo {
-  position: absolute;
   max-width: 140px;
-  left: 39.9%;
-  transform: translateY(-13%);
 }
 
 .about-round {
@@ -190,7 +199,7 @@
   width: 220px;
   height: 220px;
   border-radius: 50%;
-  padding: 35px 35px 0 35px;
+  padding: 35px 0 0 35px;
   align-self: center;
   justify-self: center;
 }

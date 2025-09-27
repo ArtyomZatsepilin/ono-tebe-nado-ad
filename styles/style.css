@@ -7,8 +7,8 @@
 
 .header-nav {
   display: flex;
-  padding: 0 0 0 50px;
-  gap: 33px;
+  padding: 50px 0 0 50px;
+  gap: 45px;
 }
 
 .first-li,
@@ -19,13 +19,14 @@
 .header-img-logo {
   max-width: 145px;
   position: absolute;
+  bottom: 90.2%;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .header-address {
   white-space: normal;
-  padding: 95px 50px 100px 0;
+  padding: 95px 80px 100px 0;
   text-align: left;
 }
 
@@ -42,12 +43,12 @@
 
 .cover-text {
   flex: 1;
-  padding: 10px 20px 0 50px;
+  padding: 15px 20px 0 50px;
   font-size: 100px;
   letter-spacing: 30px;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 20px;
 }
 
 .cover-top {
@@ -92,7 +93,7 @@
 .lots h2 {
   font-style: bold;
   font-size: 40px;
-  padding: 0 0 27px 64px;
+  padding: 0 0 27px 40px;
 }
 
 .lots-all-cards {
@@ -119,6 +120,7 @@
 .lots-all-cards h3 {
   font-style: bold;
   font-size: 22px;
+  text-transform: uppercase;
   text-decoration: underline;
 }
 
@@ -127,7 +129,7 @@
     url("../images/card-lot-01.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: 150% 100%;
 }
 
 .lots-second-card {
@@ -135,7 +137,7 @@
     url("../images/card-lot-02.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: 150% 100%;
 }
 
 .lots-third-card {
@@ -143,7 +145,7 @@
     url("../images/card-lot-03.jpg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100% 100%;
+  background-size: 150% 100%;
 }
 
 .lots-seemore {
@@ -153,8 +155,8 @@
 
 .about {
   display: grid;
-  grid-template-columns: 3fr 7fr;
-  grid-template-rows: 4fr 7fr;
+  grid-template-columns: 10fr 19fr;
+  grid-template-rows: 1fr 2fr;
   padding: 150px 24px 0 24px;
   height: 600px;
 }
